@@ -1,0 +1,94 @@
+[2024-11-16 17:42:01.552] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=12210 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV" @args.txt
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main] RGL Branch: release_10
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main] Version: 1.0.95.2152
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main] Parameters:
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main]     -steamAppId=12210
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main]     -steamLocation
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main]     @args.txt
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-11-16 17:42:01.560] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-11-16 17:42:01.585] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2024-11-16 17:42:01.593] [DISPLAY] [Main ] [external] Steam App Id: 12210
+[2024-11-16 17:42:01.593] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-11-16 17:42:01.594] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: gta4
+[2024-11-16 17:42:01.594] [DISPLAY] [Main ] [external] App: gta4
+[2024-11-16 17:42:01.623] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2024-11-16 17:42:01.649] [DISPLAY] [Main ] [titlemanager] Installed titles:
+[2024-11-16 17:42:01.649] [DISPLAY] [Main ] [titlemanager]  Title                             Progress               Version              Location                                                    
+[2024-11-16 17:42:01.762] [DISPLAY] [Main ] [svc] Service version: 1.0.95.2152 (1.0.95.2152)
+[2024-11-16 17:42:03.106] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: ru-RU
+[2024-11-16 17:42:03.106] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2024-11-16 17:42:03.109] [DISPLAY] [Main ] [fileutils] Version: 2.3.6.5 | 1.0.95.2152 | FFP
+[2024-11-16 17:42:03.185] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2024-11-16 17:42:03.581] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2024-11-16 17:42:04.763] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-11-16 17:42:04.775] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.22631) >= 10
+[2024-11-16 17:42:04.781] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2024-11-16 17:42:15.208] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2024-11-16 17:42:15.208] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2024-11-16 17:42:15.208] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2024-11-16 17:42:15.208] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-11-16 17:42:25.209] [ ERROR ] [Workr] [idownloader] Download error for https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=
+[2024-11-16 17:42:25.209] [ ERROR ] [Workr] [idownloader] Error: Сервисы обновления Rockstar в данный момент недоступны (код ошибки 236). Если проблема повторится, пожалуйста, свяжитесь со службой поддержки Rockstar Games по адресу: https://support.rockstargames.com
+[2024-11-16 17:42:25.209] [ ERROR ] [Workr] [idownloader] Error code: 236 Result 408
+[2024-11-16 17:42:25.209] [ ERROR ] [Workr] [idownloader] Http info: abort:3, commit:1, http:408, alloc:0, recv:7, send:10, tcpe:0, tcpr:0)
+[2024-11-16 17:42:25.209] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 4/408)
+[2024-11-16 17:42:25.209] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-11-16 17:42:45.211] [ ERROR ] [Workr] [idownloader] Download error for https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=
+[2024-11-16 17:42:45.211] [ ERROR ] [Workr] [idownloader] Error: Сервисы обновления Rockstar в данный момент недоступны (код ошибки 236). Если проблема повторится, пожалуйста, свяжитесь со службой поддержки Rockstar Games по адресу: https://support.rockstargames.com
+[2024-11-16 17:42:45.211] [ ERROR ] [Workr] [idownloader] Error code: 236 Result 408
+[2024-11-16 17:42:45.211] [ ERROR ] [Workr] [idownloader] Http info: abort:3, commit:1, http:408, alloc:0, recv:7, send:10, tcpe:0, tcpr:0)
+[2024-11-16 17:42:45.211] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 4/408)
+[2024-11-16 17:42:45.211] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-11-16 17:42:54.720] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2024-11-16 17:42:54.720] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2024-11-16 17:42:54.720] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2024-11-16 17:42:54.728] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="2q/XHz7kHEHBE7wv7ZGiVO4e72HiE//Fc9NVRtKEqN1Bi3N62XAT+19qPj+spCMYrze9nF7Pvk5/it8qYxnQMbgPKSSiGlgOJH1/UBKY38o=",signature="ZDNty55DHYKplaLoklYdOrLt5329fqb7PmUqO4XDx0U="'
+[2024-11-16 17:43:08.910] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="2q/XHz7kHEHBE7wv7ZGiVO4e72HiE//Fc9NVRtKEqN1Bi3N62XAT+19qPj+spCMYrze9nF7Pvk5/it8qYxnQMbgPKSSiGlgOJH1/UBKY38o=",signature="ZDNty55DHYKplaLoklYdOrLt5329fqb7PmUqO4XDx0U="' (status: 0/200)
+[2024-11-16 17:43:08.923] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: 0.0 Кб / 147.25 Мб
+[2024-11-16 17:43:08.923] [DISPLAY] [Workr] [selfupdate] Updating launcher...
+[2024-11-16 17:43:08.989] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2024-11-16 17:43:15.714] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2024-11-16 17:43:48.638] [ ERROR ] [Workr] [chunkedconnection] Failed to download correct byte count from URL: File id 973 Chunk id 38514 Result code 408 Expected bytes: 38804968 Actual bytes: 0 URL https://gamedownloads-rockstargames-com.akamaized.net/protected/prod/builds/launcher/3686b13d8b44c2a494c466b9dda3eb67d1b8d196006f6f84d88321a59f6fcfe3/3686b13d8b44c2a494c466b9dda3eb67d1b8d196006f6f84d88321a59f6fcfe3.chunk?__token__=st=1731760998~exp=1731761118~acl=%2Fprotected%2Fprod%2Fbuilds%2Flauncher%2F3686b13d8b44c2a494c466b9dda3eb67d1b8d196006f6f84d88321a59f6fcfe3%2F3686b13d8b44c2a494c466b9dda3eb67d1b8d196006f6f84d88321a59f6fcfe3.chunk%2a~hmac=e56dc0335d2154169661644814184751d3f1095c3c2e7b0e967f025aed765825
+File: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-11-16 17:43:48.638] [WARNING] [Workr] [chunkeddownloader] Removing errored chunk 38514 (Launcher.exe.swap 0). There are now 1 errored chunks.
+[2024-11-16 17:43:53.210] [ ERROR ] [Workr] [chunkedconnection] Failed to download correct byte count from URL: File id 979 Chunk id 38518 Result code 408 Expected bytes: 1147368 Actual bytes: 50072 URL https://gamedownloads-rockstargames-com.akamaized.net/protected/prod/builds/launcher/b9e5dbde848812b2ec7d054f4bf2c600b4bd562023cee074c6ea04652da54c6b/b9e5dbde848812b2ec7d054f4bf2c600b4bd562023cee074c6ea04652da54c6b.chunk?__token__=st=1731760998~exp=1731761118~acl=%2Fprotected%2Fprod%2Fbuilds%2Flauncher%2Fb9e5dbde848812b2ec7d054f4bf2c600b4bd562023cee074c6ea04652da54c6b%2Fb9e5dbde848812b2ec7d054f4bf2c600b4bd562023cee074c6ea04652da54c6b.chunk%2a~hmac=fa4fa94731afbdf7ef0e83cd9b6be2d9cc212adaafbaee065c2f04732aa1e171
+File: C:\Program Files\Rockstar Games\Launcher\RockstarSteamHelper.exe.swap
+[2024-11-16 17:43:53.210] [WARNING] [Workr] [chunkeddownloader] Removing errored chunk 38518 (RockstarSteamHelper.exe.swap 0). There are now 2 errored chunks.
+[2024-11-16 17:44:56.202] [ ERROR ] [Workr] [chunkedconnection] Failed to download correct byte count from URL: File id 974 Chunk id 37693 Result code 408 Expected bytes: 909312 Actual bytes: 876928 URL https://gamedownloads-rockstargames-com.akamaized.net/protected/prod/builds/launcher/b746849d7f07cc0f1d74b6f2fbf55f046b846c8c0017d55a68db78b561048e7d/b746849d7f07cc0f1d74b6f2fbf55f046b846c8c0017d55a68db78b561048e7d.chunk?__token__=st=1731760998~exp=1731761118~acl=%2Fprotected%2Fprod%2Fbuilds%2Flauncher%2Fb746849d7f07cc0f1d74b6f2fbf55f046b846c8c0017d55a68db78b561048e7d%2Fb746849d7f07cc0f1d74b6f2fbf55f046b846c8c0017d55a68db78b561048e7d.chunk%2a~hmac=f027bcfd36dfb8f8e4cd1058e645e319698b5523564f85570701f92179f9bb8b
+File: C:\Program Files\Rockstar Games\Launcher\Launcher.rpf.swap
+[2024-11-16 17:44:56.202] [WARNING] [Workr] [chunkeddownloader] Removing errored chunk 37693 (Launcher.rpf.swap 0). There are now 3 errored chunks.
+[2024-11-16 17:50:36.714] [DISPLAY] [Workr] [chunkeddownloader] Attempting to retry chunks that failed to download (1 / 5, 38.97 Мб)...
+[2024-11-16 17:50:36.744] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2024-11-16 17:50:38.125] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2024-11-16 17:51:26.714] [DISPLAY] [Workr] [downloadprogress] Dl: D|155332820|497|14|0|0
+[2024-11-16 17:51:26.729] [DISPLAY] [Workr] [titleupdater] Launcher needs to restart to be made up-to-date.
+[2024-11-16 17:51:26.729] [DISPLAY] [Workr] [titleupdater] Update of Rockstar Games Launcher succeeded; needs restart to complete.
+[2024-11-16 17:51:26.786] [DISPLAY] [Workr] [selfupdate] Applying downloaded self-update...
+[2024-11-16 17:51:26.993] [DISPLAY] [Workr] [title] Installed launcher version in registry updated: 1.0.95.2152 -> 1.0.97.2200
+[2024-11-16 17:51:26.993] [DISPLAY] [Workr] [title] Updated version via [sfv] for title Rockstar Games Launcher : 1.0.97.2200
+[2024-11-16 17:51:28.358] [DISPLAY] [Workr] [title] Current version for title [pv] Rockstar Games Launcher : 1.0.95.2152
+[2024-11-16 17:51:28.400] [DISPLAY] [Workr] [title] Installed launcher version in registry updated: 1.0.97.2200 -> 1.0.95.2152
+[2024-11-16 17:51:28.756] [WARNING] [bgsvc] [svc_transactionqueue] Transaction failed: 341
+[2024-11-16 17:51:28.787] [ ERROR ] [Workr] [svc_chunk] Failed to delete: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe.old
+[2024-11-16 17:51:28.850] [WARNING] [bgsvc] [svc_transactionqueue] Transaction failed: 342
+[2024-11-16 17:51:28.881] [ ERROR ] [Workr] [svc_chunk] Failed to delete: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.old
+[2024-11-16 17:51:29.881] [DISPLAY] [Workr] [title] Installed launcher version in registry updated: 1.0.95.2152 -> 1.0.97.2200
+[2024-11-16 17:51:29.881] [DISPLAY] [Workr] [title] Updated version via [sfv] for title Rockstar Games Launcher : 1.0.97.2200
+[2024-11-16 17:51:29.928] [DISPLAY] [Workr] [selfupdate] Self-update applied, need to restart.
+[2024-11-16 17:51:29.935] [DISPLAY] [Workr] [launcher] Restarting to apply self-update...
+[2024-11-16 17:51:29.935] [DISPLAY] [Workr] [lifecycle] Setting to restart after exit.
+[2024-11-16 17:51:29.935] [DISPLAY] [Workr] [launcher] Shutdown requested! Forced: false
+[2024-11-16 17:51:29.935] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2024-11-16 17:51:31.015] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2024-11-16 17:51:34.467] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2024-11-16 17:51:34.469] [WARNING] [Main ] [worker] Not adding job due to thread exiting
+[2024-11-16 17:52:01.298] [DISPLAY] [Main ] [launcher] Time to start up: 601279 ms
+[2024-11-16 17:52:01.420] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-11-16 17:52:01.438] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2024-11-16 17:52:01.481] [DISPLAY] [Main ] [svc] Stopping the background service.

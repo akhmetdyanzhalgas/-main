@@ -1,0 +1,124 @@
+[2024-11-16 17:52:04.862] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=12210 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV" @args.txt -upgrade
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main] RGL Branch: release_12
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main] Version: 1.0.97.2200
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main] Parameters:
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main]     -steamAppId=12210
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main]     -steamLocation
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main]     @args.txt
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main]     -upgrade
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files\Rockstar Games\Launcher
+[2024-11-16 17:52:04.866] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-11-16 17:52:04.886] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2024-11-16 17:52:04.888] [DISPLAY] [Main ] [external] Steam App Id: 12210
+[2024-11-16 17:52:04.888] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-11-16 17:52:04.889] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: gta4
+[2024-11-16 17:52:04.889] [DISPLAY] [Main ] [external] App: gta4
+[2024-11-16 17:52:04.902] [ ERROR ] [Main ] [shell] Could not do OpenProcess on parent process.
+[2024-11-16 17:52:04.905] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2024-11-16 17:52:04.929] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2024-11-16 17:52:04.929] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2024-11-16 17:52:04.937] [DISPLAY] [Main ] [svc] Service version: 1.0.97.2200 (1.0.97.2200)
+[2024-11-16 17:52:05.023] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: ru-RU
+[2024-11-16 17:52:05.023] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2024-11-16 17:52:05.024] [DISPLAY] [Main ] [fileutils] Version: 2.3.6.5 | 1.0.97.2200 | FFP
+[2024-11-16 17:52:05.058] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2024-11-16 17:52:05.369] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-11-16 17:52:05.378] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.22631) >= 10
+[2024-11-16 17:52:05.868] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2024-11-16 17:52:05.905] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2024-11-16 17:52:06.960] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2024-11-16 17:52:06.960] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2024-11-16 17:52:06.960] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2024-11-16 17:52:06.960] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-11-16 17:52:09.075] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2024-11-16 17:52:09.075] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2024-11-16 17:52:09.075] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2024-11-16 17:52:09.117] [DISPLAY] [Workr] [preqmanager] A newer version of Social Club is available to be installed (available: 2.3.7.8, installed: 2.3.6.5)
+[2024-11-16 17:52:09.117] [DISPLAY] [Workr] [preqmanager] Flagging Social Club for reinstall.
+[2024-11-16 17:52:09.227] [DISPLAY] [Workr] [titleupdater] Installing prerequisites for title launcher
+[2024-11-16 17:52:09.228] [DISPLAY] [Workr] [preqmanager] Installer version: 2.3.7.8
+[2024-11-16 17:52:09.228] [DISPLAY] [Workr] [preqmanager] About to launch process: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe (with commandline: /silent /forceinstall)
+[2024-11-16 17:52:17.924] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2024-11-16 17:52:17.998] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2024-11-16 17:52:26.116] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2024-11-16 17:52:26.117] [DISPLAY] [Admin] [external] Setting up steam title: gta4
+[2024-11-16 17:52:26.118] [DISPLAY] [Admin] [external] Successfully setup title
+[2024-11-16 17:52:26.134] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
+[2024-11-16 17:52:59.989] [DISPLAY] [Main ] [launcher] Presence Event - Signed In
+[2024-11-16 17:52:59.989] [DISPLAY] [Main ] [launcher] User 'Qhalgas' is now signed in
+[2024-11-16 17:53:00.017] [DISPLAY] [Main ] [launcher] Presence Event :: Went Online
+[2024-11-16 17:53:00.018] [DISPLAY] [Main ] [launcher] Time to start up: 55990 ms
+[2024-11-16 17:53:00.018] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2024-11-16 17:53:00.028] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 120,120
+[2024-11-16 17:53:00.028] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.25
+[2024-11-16 17:53:00.030] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 160,135 (1600 x 750)
+[2024-11-16 17:53:00.045] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2024-11-16 17:53:00.058] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-11-16 17:53:00.290] [DISPLAY] [Main ] [scuicallbacks] Enabling Downloading
+[2024-11-16 17:53:00.318] [DISPLAY] [Main ] [launcher] Friend Event - Friends are Available
+[2024-11-16 17:53:00.366] [DISPLAY] [Setti] [localisation] Language updated to: 7
+[2024-11-16 17:53:00.603] [DISPLAY] [Main ] [scuicallbacks] Setting updated
+[2024-11-16 17:53:00.603] [DISPLAY] [Main ] [scuicallbacks] Launch requested
+[2024-11-16 17:53:00.603] [DISPLAY] [Main ] [scuicallbacks] Launch requested by user: gta4, 
+[2024-11-16 17:53:00.603] [DISPLAY] [Main ] [external] Frontend is ready to launch the title
+[2024-11-16 17:53:00.603] [DISPLAY] [Main ] [external] Attempting external title launch...
+[2024-11-16 17:53:00.687] [DISPLAY] [Setti] [localisation] Language updated to: 7
+[2024-11-16 17:53:03.887] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2024-11-16 17:53:03.888] [DISPLAY] [Admin] [external] Attempting Steam launch. User is 'akhmetdyanz'
+[2024-11-16 17:53:04.003] [DISPLAY] [22880] [gamelaunch] Title has no minimum RGL version.
+[2024-11-16 17:53:04.003] [DISPLAY] [22880] [gamelaunch] Title has no minimum RGL version.
+[2024-11-16 17:53:06.701] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2024-11-16 17:53:06.701] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2024-11-16 17:53:09.552] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2024-11-16 17:53:13.009] [DISPLAY] [Main ] [gfwl] No GFWL save data migration is required.
+[2024-11-16 17:53:13.039] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta4'
+[2024-11-16 17:53:13.070] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta4'
+[2024-11-16 17:53:13.079] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta4' = enabled
+[2024-11-16 17:53:13.079] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta4'
+[2024-11-16 17:53:14.773] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta4'
+[2024-11-16 17:53:14.773] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta4'
+[2024-11-16 17:53:14.804] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta4'
+[2024-11-16 17:53:14.804] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta4'
+[2024-11-16 17:53:14.834] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta4'
+[2024-11-16 17:53:14.834] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta4'
+[2024-11-16 17:53:14.864] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta4'
+[2024-11-16 17:53:14.864] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta4'
+[2024-11-16 17:53:14.895] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta4'
+[2024-11-16 17:53:14.895] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta4'
+[2024-11-16 17:53:14.927] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta4'
+[2024-11-16 17:53:16.852] [DISPLAY] [22880] [gamelaunch] Launching game...
+[2024-11-16 17:53:16.852] [DISPLAY] [22880] [gamelaunch]  Path: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV\GTAIV.exe
+[2024-11-16 17:53:16.852] [DISPLAY] [22880] [gamelaunch]  Command Line: "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV\GTAIV.exe" -skipPatcherCheck -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV" @args.txt -upgrade -useSteam -steamAppId=12210 -scCommerceProvider=4 @commandline.txt -fromRGL -rglLanguage=ru-RU
+[2024-11-16 17:53:16.852] [DISPLAY] [22880] [gamelaunch]  Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-11-16 18:46:38.441] [DISPLAY] [22880] [gamelaunch] Game exited with code 0x0 (0)
+[2024-11-16 18:46:38.457] [DISPLAY] [22880] [crashdetection] Game left no exit file.
+[2024-11-16 18:46:38.457] [DISPLAY] [22880] [crashdetection] Exit code 0x0 indicates a clean game shutdown
+[2024-11-16 18:46:38.484] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta4'
+[2024-11-16 18:46:38.516] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta4'
+[2024-11-16 18:46:38.528] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta4' = enabled
+[2024-11-16 18:46:38.528] [DISPLAY] [Main ] [cloudsaveop] Title access token was missing or expired, refreshing access for title 'gta4'
+[2024-11-16 18:46:38.528] [DISPLAY] [Main ] [cloudsaveop] Retrieving access token for title 'gta4' (1)
+[2024-11-16 18:46:42.222] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta4'
+[2024-11-16 18:46:43.743] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta4'
+[2024-11-16 18:46:43.743] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta4'
+[2024-11-16 18:46:43.773] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta4'
+[2024-11-16 18:46:43.773] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta4'
+[2024-11-16 18:46:43.804] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta4'
+[2024-11-16 18:46:43.804] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta4'
+[2024-11-16 18:46:43.835] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta4'
+[2024-11-16 18:46:43.835] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta4'
+[2024-11-16 18:46:43.868] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta4'
+[2024-11-16 18:46:43.868] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta4'
+[2024-11-16 18:46:43.899] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta4'
+[2024-11-16 18:46:49.556] [DISPLAY] [22880] [launcher] Shutdown requested! Forced: false
+[2024-11-16 18:46:49.591] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2024-11-16 18:46:49.715] [WARNING] [Main ] [worker] Not adding job due to thread exiting
+[2024-11-16 18:46:49.715] [DISPLAY] [Main ] [launcher] Shutdown requested! Forced: false
+[2024-11-16 18:46:49.911] [DISPLAY] [Setti] [localisation] Language updated to: 7
+[2024-11-16 18:46:52.167] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2024-11-16 18:46:52.291] [DISPLAY] [Main ] [svc] Stopping the background service.

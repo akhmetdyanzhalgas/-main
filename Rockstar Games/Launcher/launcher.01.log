@@ -1,0 +1,81 @@
+[2025-05-24 15:04:13.306] [DISPLAY] [Main ] [launcher] Opening log file.
+[2025-05-24 15:04:13.312] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=12210 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV" @args.txt
+[2025-05-24 15:04:13.312] [DISPLAY] [Main ] [main] P4 Version: 
+[2025-05-24 15:04:13.312] [DISPLAY] [Main ] [main] RGL Branch: release_02
+[2025-05-24 15:04:13.312] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main] Version: 1.0.102.2459
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main] Parameters:
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main]     -steamAppId=12210
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main]     -steamLocation
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main]     @args.txt
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2025-05-24 15:04:13.314] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2025-05-24 15:04:13.335] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2025-05-24 15:04:13.336] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2025-05-24 15:04:13.351] [DISPLAY] [Main ] [environment] SetEnvironment: prod
+[2025-05-24 15:04:13.377] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2025-05-24 15:04:13.392] [DISPLAY] [Main ] [external] Steam App Id: 12210
+[2025-05-24 15:04:13.392] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2025-05-24 15:04:13.394] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: gta4
+[2025-05-24 15:04:13.394] [DISPLAY] [Main ] [external] App: gta4
+[2025-05-24 15:04:13.412] [DISPLAY] [Main ] [subsystem] Init phase 1
+[2025-05-24 15:04:13.427] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2025-05-24 15:04:13.427] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2025-05-24 15:04:13.450] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-05-24 15:04:13.649] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe
+[2025-05-24 15:04:13.650] [DISPLAY] [Main ] [svc] Service version: 1.0.102.2459 (1.0.102.2459)
+[2025-05-24 15:04:13.658] [DISPLAY] [Main ] [subsystem] Initializing group 0...
+[2025-05-24 15:04:13.658] [DISPLAY] [Main ] [subsystem] Init phase 2
+[2025-05-24 15:04:13.658] [DISPLAY] [Main ] [subsystem] Starting systems...
+[2025-05-24 15:04:13.798] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: ru-RU
+[2025-05-24 15:04:13.798] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2025-05-24 15:04:13.798] [DISPLAY] [Main ] [subsystem] Starting diag...
+[2025-05-24 15:04:13.798] [DISPLAY] [Main ] [fileutils] Checking local versions...
+[2025-05-24 15:04:13.798] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-05-24 15:04:13.799] [DISPLAY] [Main ] [fileutils] Checking RGL version...
+[2025-05-24 15:04:13.799] [DISPLAY] [Main ] [fileutils] Version: 2.4.0.77 | 1.0.102.2459 | FFP
+[2025-05-24 15:04:13.799] [DISPLAY] [Main ] [subsystem] Starting net...
+[2025-05-24 15:04:13.812] [DISPLAY] [Main ] [subsystem] Assigning pools...
+[2025-05-24 15:04:13.812] [DISPLAY] [Main ] [subsystem] Initializing engine...
+[2025-05-24 15:04:13.813] [DISPLAY] [Main ] [subsystem] Initializing group 1...
+[2025-05-24 15:04:13.831] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2025-05-24 15:04:14.460] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2025-05-24 15:04:14.492] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.26100) >= 10
+[2025-05-24 15:04:15.034] [WARNING] [Main ] [svc] Handshake with service timed out. Setting message protocol to version 0.
+[2025-05-24 15:04:16.009] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2025-05-24 15:04:16.024] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2025-05-24 15:04:16.983] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2025-05-24 15:04:16.983] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2025-05-24 15:04:16.983] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2025-05-24 15:04:16.983] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2025-05-24 15:04:17.922] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2025-05-24 15:04:17.922] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2025-05-24 15:04:17.922] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2025-05-24 15:04:17.929] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="E14afI+cyUFZxbuzAVCzoQ0okcftm49nVUR/LggzkOceer82KGSCGzEMCfss9M6BhGAn0LwEZ/7Z1mt9J8hloX7SBmtVdFnSG10J5OKADHY=",signature="tTCzzbczz3sU791zwB9doLEUVZ5h5noUT8VDXQTehRg="'
+[2025-05-24 15:04:19.029] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="E14afI+cyUFZxbuzAVCzoQ0okcftm49nVUR/LggzkOceer82KGSCGzEMCfss9M6BhGAn0LwEZ/7Z1mt9J8hloX7SBmtVdFnSG10J5OKADHY=",signature="tTCzzbczz3sU791zwB9doLEUVZ5h5noUT8VDXQTehRg="' (status: 0/200)
+[2025-05-24 15:04:19.033] [DISPLAY] [Workr] [titleupdater] Doing chunk checks for launcher...
+[2025-05-24 15:04:19.033] [DISPLAY] [Workr] [titleupdater] Checked 0 chunk(s), 0 were empty, skipped 0 chunk(s) and 60 file(s)
+[2025-05-24 15:04:19.033] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: 0.0 Кб / 239.43 Мб
+[2025-05-24 15:04:19.033] [DISPLAY] [Workr] [selfupdate] Updating launcher...
+[2025-05-24 15:04:21.973] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2025-05-24 15:04:23.370] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2025-05-24 15:05:32.595] [DISPLAY] [Main ] [launcher] Shutdown requested! Forced: false
+[2025-05-24 15:05:32.617] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2025-05-24 15:05:32.630] [DISPLAY] [Workr] [downloadprogress] Dl: D|38559499|70|6|0|0
+[2025-05-24 15:05:32.630] [DISPLAY] [Workr] [titleupdater] Update of Rockstar Games Launcher was cancelled.
+[2025-05-24 15:05:32.653] [DISPLAY] [Workr] [launcher] No self-update, continuing.
+[2025-05-24 15:05:32.653] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2025-05-24 15:05:32.653] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2025-05-24 15:05:32.655] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe
+[2025-05-24 15:05:32.657] [DISPLAY] [Workr] [fileutils] No version info: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe
+[2025-05-24 15:05:32.657] [ ERROR ] [Workr] [sctitle] Unable to get Social Club installer version from C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe
+[2025-05-24 15:05:32.657] [DISPLAY] [Workr] [preqmanager] Flagging Social Club for reinstall.
+[2025-05-24 15:05:32.709] [DISPLAY] [Workr] [titleupdater] Installing prerequisites for title launcher
+[2025-05-24 15:05:32.709] [ ERROR ] [Workr] [launcher] Unable to install prerequisites!
+[2025-05-24 15:05:32.709] [DISPLAY] [Workr] [launcher] Shutdown was requested, aborting.
+[2025-05-24 15:05:32.709] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2025-05-24 15:05:32.717] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2025-05-24 15:05:32.759] [DISPLAY] [Main ] [svc] Stopping the background service.

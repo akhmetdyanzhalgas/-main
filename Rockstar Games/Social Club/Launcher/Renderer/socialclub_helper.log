@@ -1,0 +1,38 @@
+[2024-12-07 01:42:56.431] [ 25052] [3618] ===================================
+[2024-12-07 01:42:56.431] [ 25052] [3618] Browser process opened from pid: 6896
+[2024-12-07 01:42:56.431] [ 25052] [3618] Language: ru
+[2024-12-07 01:42:56.432] [ 25052] [3618] Connecting to IPC channel: rgsc_ipc_1af0_channel_0
+[2024-12-07 01:42:56.433] [ 25052] [3618] Product version: RockstarGames/2.3.8.0/1.0.98.2208/launcher/Steam
+[2024-12-07 01:42:56.534] [ 25052] [3618] OnChannelConnected - rgsc_ipc_1af0_channel_0 (remoteProcessId 6896)
+[2024-12-07 01:42:59.170] [ 25052] [3618] Renderer[1][9468] IPC Channel Response: 9468 -> rgsc_ipc_1af0_channel_1
+[2024-12-07 01:42:59.171] [ 25052] [3618] Renderer[1][9468] Connecting to IPC channel: rgsc_ipc_1af0_channel_1
+[2024-12-07 01:42:59.171] [ 25052] [3618] Renderer[1][9468] OnChannelConnected - rgsc_ipc_1af0_channel_1 (remoteProcessId 6896)
+[2024-12-07 01:43:45.406] [ 25052] [3618] Renderer[2][9656] IPC Channel Response: 9656 -> rgsc_ipc_559c_channel_0
+[2024-12-07 01:43:45.406] [ 25052] [3618] Renderer[2][9656] Connecting to IPC channel: rgsc_ipc_559c_channel_0
+[2024-12-07 01:43:45.500] [ 25052] [3618] Renderer[2][9656] OnChannelConnected - rgsc_ipc_559c_channel_0 (remoteProcessId 21916)
+[2024-12-08 15:17:19.698] [ 21632] [825C] ===================================
+[2024-12-08 15:17:19.706] [ 21632] [825C] Browser process opened from pid: 38184
+[2024-12-08 15:17:19.706] [ 21632] [825C] Language: ru
+[2024-12-08 15:17:19.707] [ 21632] [825C] Connecting to IPC channel: rgsc_ipc_9528_channel_0
+[2024-12-08 15:17:19.708] [ 21632] [825C] Product version: RockstarGames/2.3.8.0/1.0.98.2208/launcher/Steam
+[2024-12-08 15:17:19.808] [ 21632] [825C] OnChannelConnected - rgsc_ipc_9528_channel_0 (remoteProcessId 38184)
+[2024-12-08 15:17:23.767] [ 21632] [825C] Renderer[1][23756] IPC Channel Response: 23756 -> rgsc_ipc_9528_channel_1
+[2024-12-08 15:17:23.768] [ 21632] [825C] Renderer[1][23756] Connecting to IPC channel: rgsc_ipc_9528_channel_1
+[2024-12-08 15:17:23.813] [ 21632] [825C] Renderer[1][23756] OnChannelConnected - rgsc_ipc_9528_channel_1 (remoteProcessId 38184)
+[2024-12-08 15:18:15.918] [ 21632] [825C] OnChannelError() - rgsc_ipc_9528_channel_0
+[2024-12-08 15:18:15.918] [ 21632] [825C] Shutdown requested
+[2024-12-08 15:18:20.921] [ 21632] [825C] Timed out waiting for windows to close on shutdown
+[2024-12-08 15:18:20.937] [ 21632] [825C] MainMessageLoopInternalPump - Preparing to shutdown
+[2024-12-08 15:18:24.054] [ 21632] [825C] MainMessageLoopInternalPump - Shutdown
+[2024-12-08 15:18:38.797] [ 32556] [6718] ===================================
+[2024-12-08 15:18:38.798] [ 32556] [6718] Browser process opened from pid: 37176
+[2024-12-08 15:18:38.798] [ 32556] [6718] Language: ru
+[2024-12-08 15:18:38.798] [ 32556] [6718] Connecting to IPC channel: rgsc_ipc_9138_channel_0
+[2024-12-08 15:18:38.799] [ 32556] [6718] Product version: RockstarGames/2.3.8.0/1.0.98.2208/launcher/Steam
+[2024-12-08 15:18:38.850] [ 32556] [6718] OnChannelConnected - rgsc_ipc_9138_channel_0 (remoteProcessId 37176)
+[2024-12-08 15:18:41.298] [ 32556] [6718] Renderer[1][28060] IPC Channel Response: 28060 -> rgsc_ipc_9138_channel_1
+[2024-12-08 15:18:41.299] [ 32556] [6718] Renderer[1][28060] Connecting to IPC channel: rgsc_ipc_9138_channel_1
+[2024-12-08 15:18:41.390] [ 32556] [6718] Renderer[1][28060] OnChannelConnected - rgsc_ipc_9138_channel_1 (remoteProcessId 37176)
+[2024-12-08 15:19:16.815] [ 32556] [6718] Renderer[2][24236] IPC Channel Response: 24236 -> rgsc_ipc_1a54_channel_0
+[2024-12-08 15:19:16.815] [ 32556] [6718] Renderer[2][24236] Connecting to IPC channel: rgsc_ipc_1a54_channel_0
+[2024-12-08 15:19:16.846] [ 32556] [6718] Renderer[2][24236] OnChannelConnected - rgsc_ipc_1a54_channel_0 (remoteProcessId 6740)

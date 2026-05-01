@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<title>Kaspi Premium UI</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ececec, #dcdcdc);
+}
+
+/* PHONE */
+.phone {
+    width: 390px;
+    height: 844px;
+    margin: 30px auto;
+    border-radius: 35px;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(135deg, #ff0033, #cc0022);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* CARD */
+.card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ff0033, #990000);
+    color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.balance {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* BUTTON GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.item {
+    background: #f8f8f8;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+/* ACTION BUTTON */
+.big-btn {
+    margin: 20px;
+    padding: 18px;
+    background: linear-gradient(135deg, #ff0033, #cc0022);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+/* MENU */
+.menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+}
+
+.menu div {
+    text-align: center;
+    font-size: 12px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="phone">
+
+<div class="header">
+Kaspi Gold 💳
+</div>
+
+<div class="card">
+Сіздің балансыңыз
+<div class="balance">250 000 ₸</div>
+</div>
+
+<div class="grid">
+<div class="item">💸 Аудару</div>
+<div class="item">📱 Телефон</div>
+<div class="item">💡 Коммуналка</div>
+<div class="item">🌐 Интернет</div>
+<div class="item">🛍️ Дүкен</div>
+<div class="item">📊 Тарих</div>
+</div>
+
+<div class="big-btn">
++ Ақша қосу
+</div>
+
+<div class="menu">
+<div>🏠<br>Home</div>
+<div>💸<br>Transfer</div>
+<div>📊<br>History</div>
+<div>👤<br>Profile</div>
+</div>
+
+</div>
+
+</body>
+</html>

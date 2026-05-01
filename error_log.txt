@@ -1,0 +1,24 @@
+[2026-04-22 18:46:02.245944]
+ERROR: MissingPluginException(No implementation found for method requestReview on channel dev.britannio.in_app_review)
+STACK: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+pid: 29868, tid: 22584, name io.flutter.ui
+os: windows arch: x64 comp: no sim: no
+build_id: '0502bd359de389302eedcdce298a5c91'
+isolate_dso_base: 22d6fae0000, vm_dso_base: 22d6fae0000
+isolate_instructions: 22d6fe02880, vm_instructions: 22d6fdfc000
+    #00 abs 0000022d70408458 virt 0000000000928458 _kDartIsolateSnapshotInstructions+0x605bd8
+<asynchronous suspension>
+
+----------------
+[2026-04-22 19:26:11.524401]
+ERROR: MissingPluginException(No implementation found for method requestReview on channel dev.britannio.in_app_review)
+STACK: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+pid: 29868, tid: 22584, name io.flutter.ui
+os: windows arch: x64 comp: no sim: no
+build_id: '0502bd359de389302eedcdce298a5c91'
+isolate_dso_base: 22d6fae0000, vm_dso_base: 22d6fae0000
+isolate_instructions: 22d6fe02880, vm_instructions: 22d6fdfc000
+    #00 abs 0000022d70408458 virt 0000000000928458 _kDartIsolateSnapshotInstructions+0x605bd8
+<asynchronous suspension>
+
+----------------

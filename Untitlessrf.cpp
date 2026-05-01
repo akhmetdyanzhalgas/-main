@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	 setlocale(LC_ALL, "Russian");
+
+    int sandar_sany;
+    cout << "Тизбектеги сандар санын енгизиниз: ";
+    cin >> sandar_sany;
+    
+    int on_sandar_sany = 0;
+    int teris_sandar_sany = 0;
+    int nol_sany = 0;
+    int on_sandar_kosyndysy = 0;
+    int teris_sandar_kosyndysy = 0;
+    int en_ulken_san = -1000000;
+    int en_kishi_san = 1000000;
+    
+    for (int i = 0; i < sandar_sany; i++) {
+        int san;
+        cout << i + 1 << "-ши сан: ";
+        cin >> san;
+        
+        if (san > 0) {
+            on_sandar_sany++;
+            on_sandar_kosyndysy += san;
+        } else if (san < 0) {
+            teris_sandar_sany++;
+            teris_sandar_kosyndysy += san;
+        } else {
+            nol_sany++;
+        }
+        
+        if (san > en_ulken_san) {
+            en_ulken_san = san;
+        }
+        if (san < en_kishi_san) {
+            en_kishi_san = san;
+        }
+    }
+    
+    int aiyrma = en_ulken_san - en_kishi_san;
+    
+    cout << "Он сандар саны: " << on_sandar_sany << endl;
+    cout << "Терис сандар саны: " << teris_sandar_sany << endl;
+    cout << "Нолдер саны: " << nol_sany << endl;
+    cout << "Он сандар суммасы: " << on_sandar_kosyndysy << endl;
+    cout << "Терис сандар суммасы: " << teris_sandar_kosyndysy << endl;
+    cout << "Ен улкен сан мен ен киши санына айырмашылыгы: " << aiyrma << endl;
+    
+    return 0;
+}

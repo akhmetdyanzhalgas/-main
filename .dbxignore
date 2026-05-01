@@ -1,0 +1,23 @@
+# dbxignore v2
+# Привет! Этот файл создали ваши друзья в Dropbox, чтобы не синхронизировать ненужные файлы, которые генерирует ваш компьютер.
+# Подробнее об этом можно узнать вот здесь: https://help.dropbox.com/installs-integrations/sync-uploads/external-drive
+# 
+.dropbox.device
+.localized
+.volumeicon.icns
+.fseventsd
+.spotlight-v100
+.documentrevisions-v100
+.temporaryitems
+.trashes
+.com.apple.timemachine.donotpresent
+system volume information
+$recycle.bin
+filehistory
+toolkit
+.dbxignore
+**/*.paper
+**/*.gdoc
+**/*.gsheet
+**/*.gslides
+**/._*

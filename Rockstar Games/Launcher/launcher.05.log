@@ -1,0 +1,78 @@
+[2024-12-07 01:28:10.765] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -steamAppId=12210 -steamLocation "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV" @args.txt
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main] RGL Branch: release_12
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main] Version: 1.0.97.2200
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main] Parameters:
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main]     -steamAppId=12210
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main]     -steamLocation
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main]     C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main]     @args.txt
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main] Initial Working Directory: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-12-07 01:28:10.774] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-12-07 01:28:10.800] [DISPLAY] [Main ] [external] Creating Steam min mode launch
+[2024-12-07 01:28:10.811] [DISPLAY] [Main ] [external] Steam App Id: 12210
+[2024-12-07 01:28:10.811] [DISPLAY] [Main ] [external] Steam Location: C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto IV\GTAIV
+[2024-12-07 01:28:10.812] [DISPLAY] [Main ] [metadatamanager] Read external Steam metadata: gta4
+[2024-12-07 01:28:10.812] [DISPLAY] [Main ] [external] App: gta4
+[2024-12-07 01:28:10.847] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2024-12-07 01:28:10.875] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2024-12-07 01:28:10.875] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2024-12-07 01:28:11.026] [DISPLAY] [Main ] [svc] Service version: 1.0.97.2200 (1.0.97.2200)
+[2024-12-07 01:28:11.312] [DISPLAY] [Main ] [minmode] Overriding language from external game launch: ru-RU
+[2024-12-07 01:28:11.312] [DISPLAY] [Main ] [localisation] Language updated to: 7
+[2024-12-07 01:28:11.313] [DISPLAY] [Main ] [fileutils] Version: 2.3.7.8 | 1.0.97.2200 | FFP
+[2024-12-07 01:28:11.365] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2024-12-07 01:28:12.489] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-12-07 01:28:12.509] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.22631) >= 10
+[2024-12-07 01:28:13.044] [WARNING] [Main ] [svc] Handshake with service timed out. Setting message protocol to version 0.
+[2024-12-07 01:28:13.188] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2024-12-07 01:28:13.196] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2024-12-07 01:28:13.802] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2024-12-07 01:28:13.802] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2024-12-07 01:28:13.802] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2024-12-07 01:28:13.802] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-12-07 01:28:15.383] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2024-12-07 01:28:15.383] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2024-12-07 01:28:15.383] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2024-12-07 01:28:15.392] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="RwiLwTonid4A5ceiwa+1CWHYtddo2MiLQrSwjoyScGMePz8CvrMFIdMhxrG8v5EmBGKb7nxz5hd2b2d7tzPveRVvgErdYsf7tCWNdPV4omU=",signature="Sun57Z0SMW7B1EjDdunGzo60TUKmUOGbh6i2lTnHnRI="'
+[2024-12-07 01:28:16.881] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetBuildManifestFullNoAuth?branchAccessToken=BRANCHACCESS token="RwiLwTonid4A5ceiwa+1CWHYtddo2MiLQrSwjoyScGMePz8CvrMFIdMhxrG8v5EmBGKb7nxz5hd2b2d7tzPveRVvgErdYsf7tCWNdPV4omU=",signature="Sun57Z0SMW7B1EjDdunGzo60TUKmUOGbh6i2lTnHnRI="' (status: 0/200)
+[2024-12-07 01:28:16.882] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: 0.0 Кб / 134.07 Мб
+[2024-12-07 01:28:16.882] [DISPLAY] [Workr] [selfupdate] Updating launcher...
+[2024-12-07 01:28:17.202] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2024-12-07 01:28:18.431] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2024-12-07 01:28:48.836] [ ERROR ] [Workr] [chunkedconnection] Failed to download correct byte count from URL: File id 973 Chunk id 38546 Result code 408 Expected bytes: 39195624 Actual bytes: 0 URL https://gamedownloads-rockstargames-com.akamaized.net/protected/prod/builds/launcher/7582e8b759dd7affabb396536696f29053542cb8db782c4fe90d5806f295272f/7582e8b759dd7affabb396536696f29053542cb8db782c4fe90d5806f295272f.chunk?__token__=st=1733516903~exp=1733517023~acl=%2Fprotected%2Fprod%2Fbuilds%2Flauncher%2F7582e8b759dd7affabb396536696f29053542cb8db782c4fe90d5806f295272f%2F7582e8b759dd7affabb396536696f29053542cb8db782c4fe90d5806f295272f.chunk%2a~hmac=04461bbb986c3e69502f123b9d67b100aac2d0f794db0c0bb2a7c7fbc5a758fc
+File: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.swap
+[2024-12-07 01:28:48.836] [WARNING] [Workr] [chunkeddownloader] Removing errored chunk 38546 (Launcher.exe.swap 0). There are now 1 errored chunks.
+[2024-12-07 01:38:16.899] [DISPLAY] [Workr] [downloadprogress] Dl: D|91354489|600|8|0|0
+[2024-12-07 01:38:59.148] [DISPLAY] [Workr] [chunkeddownloader] Attempting to retry chunks that failed to download (1 / 5, 37.38 Мб)...
+[2024-12-07 01:38:59.165] [DISPLAY] [Admin] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti'
+[2024-12-07 01:39:01.570] [DISPLAY] [Admin] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/RetrieveFileChunkNoAuthMulti' (status: 0/200)
+[2024-12-07 01:41:48.789] [DISPLAY] [Workr] [downloadprogress] Dl: D|140580704|811|9|0|0
+[2024-12-07 01:41:48.797] [DISPLAY] [Workr] [titleupdater] Launcher needs to restart to be made up-to-date.
+[2024-12-07 01:41:48.797] [DISPLAY] [Workr] [titleupdater] Update of Rockstar Games Launcher succeeded; needs restart to complete.
+[2024-12-07 01:41:48.847] [DISPLAY] [Workr] [selfupdate] Applying downloaded self-update...
+[2024-12-07 01:41:49.066] [DISPLAY] [Workr] [titlemanager] Installed launcher version in registry updated: 1.0.97.2200 -> 1.0.98.2208
+[2024-12-07 01:41:49.066] [DISPLAY] [Workr] [title] Updated version via [sfv] for title Rockstar Games Launcher : 1.0.98.2208
+[2024-12-07 01:41:49.614] [DISPLAY] [Workr] [title] Current version for title [pv] Rockstar Games Launcher : 1.0.97.2200
+[2024-12-07 01:41:49.643] [DISPLAY] [Workr] [titlemanager] Installed launcher version in registry updated: 1.0.98.2208 -> 1.0.97.2200
+[2024-12-07 01:41:49.773] [WARNING] [bgsvc] [svc_transactionqueue] Transaction failed: 433
+[2024-12-07 01:41:49.777] [ ERROR ] [Workr] [svc_chunk] Failed to delete: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe.old
+[2024-12-07 01:41:49.807] [WARNING] [bgsvc] [svc_transactionqueue] Transaction failed: 434
+[2024-12-07 01:41:49.811] [ ERROR ] [Workr] [svc_chunk] Failed to delete: C:\Program Files\Rockstar Games\Launcher\Launcher.exe.old
+[2024-12-07 01:41:50.572] [DISPLAY] [Workr] [titlemanager] Installed launcher version in registry updated: 1.0.97.2200 -> 1.0.98.2208
+[2024-12-07 01:41:50.572] [DISPLAY] [Workr] [title] Updated version via [sfv] for title Rockstar Games Launcher : 1.0.98.2208
+[2024-12-07 01:41:50.602] [DISPLAY] [Workr] [selfupdate] Self-update applied, need to restart.
+[2024-12-07 01:41:50.609] [DISPLAY] [Workr] [launcher] Restarting to apply self-update...
+[2024-12-07 01:41:50.609] [DISPLAY] [Workr] [lifecycle] Setting to restart after exit.
+[2024-12-07 01:41:50.609] [DISPLAY] [Workr] [launcher] Shutdown requested! Forced: false
+[2024-12-07 01:41:50.609] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2024-12-07 01:41:51.717] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2024-12-07 01:41:55.667] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2024-12-07 01:41:55.668] [WARNING] [Main ] [worker] Not adding job due to thread exiting
+[2024-12-07 01:42:37.859] [DISPLAY] [Main ] [launcher] Time to start up: 868766 ms
+[2024-12-07 01:42:37.982] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-12-07 01:42:37.993] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
+[2024-12-07 01:42:38.015] [DISPLAY] [Main ] [svc] Stopping the background service.
